@@ -12,6 +12,7 @@ Repository for Course work on ATU Module 24-25: **4122 -- PROGRAMMING AND SCRIPT
 |5 |Quiz Lab and Task for Week # 5|02/03/2025|
 |6 |Quiz Lab and Task for Week # 6|12/03/2025|
 |7 |Quiz Lab and Task for Week # 7|23/03/2025|
+|8 |Task for Week # 8|26/03/2025|
 
 <font color="sky blue">*Late! ... Focused on Labs and over looked Tasks</font> 😲
 
