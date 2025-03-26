@@ -20,9 +20,7 @@ Plot 2 graphs in a 2x1 grid
 '''
 
 #import required modules 
-import pandas as pd
 import numpy as np
-from sklearn import datasets as ds
 import matplotlib.pyplot as plt
 
 #Generate the Normal Random Distribution of 1000 Values
@@ -44,18 +42,19 @@ def generateExponentialData():
 
 
 #Plot Histogram of 1000 values with 20 bins
-def plotHisto(norm_data):
-    plt.hist(norm_data, bins=20, edgecolor='black', color='red', label='Normal Distribution')
+def plotHisto(data):
+    plt.hist(data, bins=20, edgecolor='black', color='red', label='Normal Distribution')
     plt.title(f' Histogram of Normal Distribution of 1000 Random values', fontsize=14, fontweight='bold') #Use bold text
     plt.xlabel('Value')
     plt.ylabel('Frequency') 
     plt.legend()
+    
 
 #Plot line graph of 10 Dictionary values
-def plotLine(exp_data):
+def plotLine(data):
     # Get Dictionary of values and extract key/value pairs for plot x,y value
-    x = list(exp_data.keys())  
-    y = list(exp_data.values())  
+    x = list(data.keys())  
+    y = list(data.values())  
     # Create the plot
     plt.plot(x, y, marker='o', linestyle='-', color='b', label=r'$x^3$')
     plt.xlabel('x')
@@ -69,7 +68,7 @@ norm_data = generateNormalDist()
 exp_data = generateExponentialData()
 
 #Plot 2 graphs in a 2x1 grid
-plt.figure(figsize=(10, 20)) #Adjust size of 2 graphs (width, height)
+plt.figure(figsize=(10, 20), facecolor='lightblue') #Adjust size of 2 graphs (width, height)
 plt.subplot(2, 1, 1)
 plotHisto(norm_data)
 plt.subplot(2, 1, 2)
