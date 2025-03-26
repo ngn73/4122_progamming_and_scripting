@@ -68,7 +68,7 @@ norm_data = generateNormalDist()
 exp_data = generateExponentialData()
 
 #Plot 2 graphs in a 2x1 grid
-plt.figure(figsize=(10, 20), facecolor='lightblue') #Adjust size of 2 graphs (width, height)
+plt.figure(figsize=(10, 20), facecolor='ivory') #Adjust size of 2 graphs (width, height) and background color
 plt.subplot(2, 1, 1)
 plotHisto(norm_data)
 plt.subplot(2, 1, 2)
