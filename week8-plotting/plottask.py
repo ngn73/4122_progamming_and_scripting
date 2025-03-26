@@ -35,7 +35,7 @@ def generateNormalDist():
 def generateExponentialData():
     numValues = 10
     dictValues = {}
-    for x in range(1, numValues):
+    for x in range(1, numValues + 1):
         dictValues[x] = x**3
     return dictValues
 
