@@ -2,11 +2,12 @@
 Author: Niall Naughton
 Date: 15/03/2025
 
+----------------------------------------------------------------------------------
 Task Description:
 Write a program that reads in a text file and outputs the number of e's it contains. Think about what is being asked here, document any assumptions you are making.
 The program should take the filename from an argument on the command line. I have not shown you how to do this, you need to look it up.
 Marks will be given for dealing with errors eg no argument, filename that does not exist, or is not a text file.
-
+----------------------------------------------------------------------------------
 Approach:
 I will use the The str.count(sub) method that returns the number of non-overlapping occurrences 
 of a substring sub in the target string

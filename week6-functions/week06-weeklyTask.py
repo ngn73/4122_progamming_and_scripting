@@ -11,6 +11,9 @@ This is to demonstrate that you can research and code a process (If you really n
 This is a more difficult task than some of the others, but will be marked equally, so only do as much work on this as you feel comfortable.
 ----------------------------------------------------------------------------------
 Approach:
+https://en.wikipedia.org/wiki/Methods_of_computing_square_roots
+https://www.geeksforgeeks.org/square-root-of-a-perfect-square/
+
 I will use the Babylonian method for computing the root of a number rather than built in python functions
 
 For a given number : N

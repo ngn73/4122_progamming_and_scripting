@@ -2,6 +2,12 @@
 </br>![Data Analytics](https://github.com/ngn73/4122_progamming_and_scripting/blob/main/resources/data_analytics.png?raw=true)</br></br>
 Repository for Course work on ATU Module 24-25: **4122 -- PROGRAMMING AND SCRIPTING**</br>
 </br>
+This repository is organized with a series of folders named "week[n]".
+There are 8 folders with in total, each with ...
+* that week's Task files (in the root of that folder) 
+* Another folder called 'labs' for the lab exercise files for that week
+
+The labs may have jupyter notebooks that comment on, and provide python solutions to, the assigned questions for that week.
 
 |Task|Notebook|Date Submitted|
 |--------|--------|-----------|
@@ -14,7 +20,7 @@ Repository for Course work on ATU Module 24-25: **4122 -- PROGRAMMING AND SCRIPT
 |7 |Quiz Lab and Task for Week # 7|23/03/2025|
 |8 |Task for Week # 8|26/03/2025|
 
-<font color="sky blue">*Late! ... Focused on Labs and over looked Tasks</font> 😲
+
 
 
 
